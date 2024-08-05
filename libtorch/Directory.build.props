@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ImportGroup Label="PropertySheets" />
+	<PropertyGroup Label="UserMacros">
+		<LIBTORCH_D_PATH>C:\libtorchs\libtorch-win-shared-with-deps-debug-2.3.0+cu118</LIBTORCH_D_PATH>
+		<LIBTORCH_PATH>C:\libtorchs\libtorch-win-shared-with-deps-2.3.0+cu118</LIBTORCH_PATH>
+		<NVTOOLSEXT_PATH>C:\Program Files\NVIDIA Corporation\NvToolsExt</NVTOOLSEXT_PATH>
+	</PropertyGroup>
+	<ItemGroup>
+		<BuildMacro Include="LIBTORCH_D_PATH">
+			<Value>$(LIBTORCH_D_PATH)</Value>
+		</BuildMacro>
+		<BuildMacro Include="LIBTORCH_PATH">
+		  <Value>$(LIBTORCH_PATH)</Value>
+		</BuildMacro>
+		<BuildMacro Include="NVTOOLSEXT_PATH">
+			<Value>$(NVTOOLSEXT_PATH)</Value>
+		</BuildMacro>
+	</ItemGroup>
+</Project>
